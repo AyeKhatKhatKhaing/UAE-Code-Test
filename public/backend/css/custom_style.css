@@ -1,0 +1,212 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1500px) {
+    .publish-change-to {
+        width : 100%;
+        margin-bottom: 10px;
+    }
+
+    .publish-status {
+        width: 100%;
+    }
+
+    .publish-on{
+        width : 100%;
+    }
+
+    .publish-date{
+        width: 100%;
+    }
+}
+
+.aside-dark .menu .menu-item.here>.menu-link {
+    background-color: #009EF760;
+}
+
+.aside.aside-dark .aside-logo {
+    background-color: #ffffff;
+}
+
+.aside-menu {
+    background-color: #000000;
+}
+
+.aside-dark .menu .menu-item .menu-link.active {
+    background-color: #000000;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here),
+.aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+    background-color: #009EF760;
+}
+
+.aside-dark .menu .menu-item .menu-link .menu-title {
+    color: #ffffff;
+}
+
+.aside-dark .menu .menu-item .menu-link.active .menu-title {
+    color: #009EF7;
+}
+
+.aside-dark .menu .menu-item .menu-link.active .menu-bullet .bullet {
+    background-color: #ffffff!important;
+}
+
+.aside-dark .menu .menu-item .menu-section {
+    color: #009EF7!important;
+}
+
+.aside-dark .menu .menu-item .menu-link .menu-icon,
+.aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon,
+.aside-dark .menu .menu-item .menu-link .menu-icon i {
+    color: #ffffff !important;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-bullet .bullet,
+.aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-bullet .bullet {
+    background-color: #000000;
+}
+
+.sticky-sidebar{
+    position: sticky !important;
+    bottom: 0;
+    background-color: #000000 !important;
+}
+
+.sticky {
+  position: sticky !important;
+  right: 0;
+  background-color: #fff !important;
+}
+
+.aside.aside-dark .separator {
+    border-bottom-color: #009EF760;
+}
+
+.menu-state-bg .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here), .menu-state-bg .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here){
+    background-color: #009EF760!important;
+}
+
+.menu-state-bg .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here), .menu-state-bg .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-title{
+    color: #ffffff!important;
+}
+
+.menu-state-bg .menu-item.show > .menu-link {
+    background-color: #009EF760!important;
+}
+
+.menu-state-title-primary .menu-item.show > .menu-link .menu-title{
+    color: #ffffff!important;
+}
+
+.menu-state-bg .menu-item .menu-link.active {
+    background-color: #009EF760!important;
+}
+
+.menu-state-title-primary .menu-item .menu-link.active .menu-title {
+    color: #009EF7!important;
+}
+
+.menu-state-bg .menu-item.here > .menu-link {
+    background-color: #009EF760!important;
+}
+
+.aside-dark .menu .menu-item.here > .menu-link .menu-bullet .bullet {
+  background-color: #009EF760!important;
+}
+
+.brand-logo .lfmimage{
+  height: 15rem !important;
+}
+
+.brand-logo button{
+  position: absolute;
+  top:15px !important;
+  right:15px !important;
+}
+
+.feature-laravel button, .penfold-max button, .member-exclusive button, .laravel-about button, .store-distribution button{
+  position: absolute;
+  top:70px !important;
+  right:35px !important;
+}
+  .grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .sim-grid-container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 1fr);
+  }
+
+  .largeImage{
+    width:500px;
+  }
+  .backdrop{
+    
+    display: none;
+    filter: alpha(opacity=0);
+    height: 100%;
+    left: 0px;
+    opacity: .0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+  }
+  
+  .box{
+    display: none;
+    height: 300px;
+    left: 69%;
+    margin-left: -210px;
+    opacity: 0;
+    position: fixed;
+    top: 30%;
+    z-index: 51;
+    
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+  }
+  
+  .close{
+    cursor: pointer;
+    float: left;
+    font-size: 32px;
+    margin: 10px;
+    position: absolute;
+  }
+  
+  .clear{
+    clear: both;
+  }
+
+.filter-style {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-section {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
